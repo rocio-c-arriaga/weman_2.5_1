@@ -18,4 +18,12 @@ function ordenaPorHabitacion(arreglo) {
 function ordenaPorHuesped(arreglo) {
 	//Acá puedes hacer la otra que ordene por el nombre del huesped
 }
+function ordenaPorHabitacion(registro) {
+	//En esta fuinción escribe la función que ordenará el arreglo por habitación
+
+	if (registro.lenght<=1){
+		return registro;
+	}else{
+		var pivot = Math.floor(Math.random()*) (registro.length -1);
+	 }
 
